@@ -2,19 +2,19 @@ import {
     Accessibility,
     ChevronDown,
     Compass,
-    Facebook,
     Instagram,
     Mail,
     Menu,
     MessageCircle,
     Music2,
+    Share2
     Smartphone,
     Ticket,
     Youtube,
 } from 'lucide-react';
 
 const socialLinks = [
-    { label: 'Facebook', href: '#', icon: Facebook },
+    { label: 'Facebook', href: '#', icon: Share2 },
     { label: 'Instagram', href: '#', icon: Instagram },
     { label: 'YouTube', href: '#', icon: Youtube },
     { label: 'TikTok', href: '#', icon: Music2 },
