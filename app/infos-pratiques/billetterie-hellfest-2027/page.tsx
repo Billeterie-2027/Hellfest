@@ -1,26 +1,23 @@
 import {
-    Accessibility,
-    ChevronDown,
-    Menu,
-    Smartphone,
-    Ticket,
+  Accessibility,
+  ChevronDown,
+  Globe,
+  Mail,
+  Menu,
+  MessageCircle,
+  Music2,
+  Share2,
+  Smartphone,
+  Ticket,
 } from 'lucide-react';
-import {
-    FaDiscord,
-    FaEnvelope,
-    FaFacebook,
-    FaInstagram,
-    FaTiktok,
-    FaYoutube,
-} from 'react-icons/fa6';
 
 const socialLinks = [
-    { label: 'Facebook', href: '#', icon: FaFacebook },
-    { label: 'Instagram', href: '#', icon: FaInstagram },
-    { label: 'YouTube', href: '#', icon: FaYoutube },
-    { label: 'TikTok', href: '#', icon: FaTiktok },
-    { label: 'Discord', href: '#', icon: FaDiscord },
-    { label: 'Contact', href: '#', icon: FaEnvelope },
+  { label: 'Facebook', href: '#', icon: Share2 },
+  { label: 'Instagram', href: '#', icon: Globe },
+  { label: 'YouTube', href: '#', icon: Globe },
+  { label: 'TikTok', href: '#', icon: Music2 },
+  { label: 'Discord', href: '#', icon: MessageCircle },
+  { label: 'Contact', href: '#', icon: Mail },
 ];
 
 export default function BilletterieHellfest2027Page() {
