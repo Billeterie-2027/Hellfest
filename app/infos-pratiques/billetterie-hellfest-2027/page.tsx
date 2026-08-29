@@ -3,12 +3,8 @@ import {
   ChevronDown,
   Globe,
   Mail,
-  Menu,
-  MessageCircle,
-  Music2,
+  MapPinned,
   Share2,
-  Smartphone,
-  Ticket,
 } from 'lucide-react';
 
 const socialLinks = [
